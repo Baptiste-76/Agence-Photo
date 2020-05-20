@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph -->
+    <meta name="description" content="Concept de site pour un Photographe">
+    <meta property="og:site_name" content="Agence Photo">
+    <meta property="og:url" content="https://agence-photo.herokuapp.com/">
+    <meta property="og:title" content="Agence Photo">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://agence-photo.herokuapp.com/ressources/header.jpg">
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1350" />
+    <meta property="og:image:height" content="900" />
+    <meta property="og:description" content="Concept de site pour un Photographe">
+    <meta name="author" content="Baptiste Bidaux">
+
+    <!-- Icônes Materialize -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Agence Photo</title>
+</head>
+<body>
+    <!-- Header + Barre de navigation -->
+    <header>
+        <div class="navbar-fixed">
+            <nav class="nav-wrapper">
+                <div class="container">
+                    <a href="#" class="brand-logo">Agence Photo</a>
+                    <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down table-of-contents">
+                        <li><a href="#projects">Projets</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="sidenav grey lighten-2" id="mobile-menu">
+                        <li><a href="#projects">Projets</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <h1>Bienvenue !</h1>
+                <span class="subtitle">Donnons vie ensemble à vos projets.</span>
+                <br>
+                <div class="btn green darken-3 header-btn">Bouton 1</div>
+                <div class="btn green darken-4 header-btn">Bouton 2</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Photos -->
+    <section id="projects" class="photos-section scrollspy">
+        <div class="container">
+            <div class="row">
+                <h2 class="center-align">Mes Projets</h2>
+
+                <div class="photos col s12 m6 xl4">
+                    <img src="ressources/img1gal.jpeg" alt="Image 1 de la galerie" class="materialboxed responsive-img">
+                </div>
+                <div class="photos col s12 m6 xl4">
+                    <img src="ressources/img2gal.jpeg" alt="Image 2 de la galerie" class="materialboxed responsive-img">
+                </div>
+                <div class="photos col s12 m6 xl4">
+                    <img src="ressources/img3gal.jpeg" alt="Image 3 de la galerie" class="materialboxed responsive-img">
+                </div>
+                <div class="photos col s12 m6 xl4">
+                    <img src="ressources/img4gal.jpeg" alt="Image 4 de la galerie" class="materialboxed responsive-img">
+                </div>
+                <div class="photos col s12 m6 xl4">
+                    <img src="ressources/img5gal.jpeg" alt="Image 5 de la galerie" class="materialboxed responsive-img">
+                </div>
+                <div class="photos col s12 m6 xl4">
+                    <img src="ressources/img6gal.jpeg" alt="Image 6 de la galerie" class="materialboxed responsive-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Première section parallaxe -->
+    <div class="parallax-container parallax-section">
+        <div class="parallax">
+            <img src="ressources/par1.jpg" alt="Image parallaxe">
+        </div>
+    </div>
+    
+    <!-- Section Services -->
+    <section id="services" class="scrollspy">
+        <div class="container">
+            <div class="row">
+                <h2 class="center-align services-header">Mes Services</h2>
+
+                <div class="flex-icon col s12 m8 offset-m2 l4">
+                    <i class="material-icons large">monetization_on</i>
+                    <p class="center-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsa non modi adipisci, ipsam ducimus.</p>
+                </div>
+                <div class="flex-icon col s12 m8 offset-m2 l4">
+                    <i class="material-icons large">movie</i>
+                    <p class="center-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsa non modi adipisci, ipsam ducimus.</p>
+                </div>
+                <div class="flex-icon col s12 m8 offset-m2 l4">
+                    <i class="material-icons large">palette</i>
+                    <p class="center-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsa non modi adipisci, ipsam ducimus.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="separator">
+
+        <div class="container second-services-container">
+            <div class="row">
+                <div class="flex-icon col s12 m8 offset-m2 l4">
+                    <i class="material-icons large">gavel</i>
+                    <p class="center-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsa non modi adipisci, ipsam ducimus.</p>
+                </div>
+                <div class="flex-icon col s12 m8 offset-m2 l4">
+                    <i class="material-icons large">camera_alt</i>
+                    <p class="center-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsa non modi adipisci, ipsam ducimus.</p>
+                </div>
+                <div class="flex-icon col s12 m8 offset-m2 l4">
+                    <i class="material-icons large">forum</i>
+                    <p class="center-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsa non modi adipisci, ipsam ducimus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seconde section parallaxe -->
+    <div class="parallax-container parallax-section">
+        <div class="parallax">
+            <img src="ressources/par2.jpg" alt="Image parallaxe 2">
+        </div>
+    </div>
+
+    <!-- Section Fil de Lecture -->
+    <section>
+        <div class="container reading-wire">
+            <div class="row valign-wrapper">
+                <div class="col l5 m6 offset-m3 s12">
+                    <img class="responsive-img" src="ressources/3img.jpg" alt="Image en noir et blanc">
+                </div>
+
+                <div class="col l5 offset-l2 s12">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, cum illum praesentium ea vel animi vero iusto dolorum a nesciunt.</p>
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, dolorum!</blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error nemo magni provident rerum ab beatae ad adipisci. Inventore magni obcaecati nemo? Hic eaque qui, veritatis, odit labore eius odio voluptatum placeat amet non, explicabo excepturi fugit ab accusantium exercitationem. Laborum, dolorem praesentium, voluptatibus non similique iste inventore eligendi corrupti mollitia accusamus quam necessitatibus explicabo. Qui ex nisi error in! Voluptatum eveniet non autem nulla ducimus. Fugit cumque consequuntur aspernatur iste laborum, perferendis iusto aliquid. Aliquam unde dolor repudiandae ratione consequuntur? Quis ad doloremque aspernatur quam magnam odio, eos corrupti molestias.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container reading-wire">
+            <div class="row valign-wrapper"> 
+                <div class="col l5 s12">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, cum illum praesentium ea vel animi vero iusto dolorum a nesciunt.</p>
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, dolorum!</blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error nemo magni provident rerum ab beatae ad adipisci. Inventore magni obcaecati nemo? Hic eaque qui, veritatis, odit labore eius odio voluptatum placeat amet non, explicabo excepturi fugit ab accusantium exercitationem. Laborum, dolorem praesentium, voluptatibus non similique iste inventore eligendi corrupti mollitia accusamus quam necessitatibus explicabo. Qui ex nisi error in! Voluptatum eveniet non autem nulla ducimus. Fugit cumque consequuntur aspernatur iste laborum, perferendis iusto aliquid. Aliquam unde dolor repudiandae ratione consequuntur? Quis ad doloremque aspernatur quam magnam odio, eos corrupti molestias.</p>
+                </div>
+
+                <div class="col l5 offset-l2 m6 offset-m3 s12">
+                    <img class="responsive-img" src="ressources/3img.jpg" alt="Image en noir et blanc">
+                </div>
+            </div>
+        </div>
+
+        <div class="container reading-wire">
+            <div class="row valign-wrapper">
+                <div class="col l5 m6 offset-m3 s12">
+                    <img class="responsive-img" src="ressources/3img.jpg" alt="Image en noir et blanc">
+                </div>
+
+                <div class="col l5 offset-l2 s12">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, cum illum praesentium ea vel animi vero iusto dolorum a nesciunt.</p>
+                    <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, dolorum!</blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error nemo magni provident rerum ab beatae ad adipisci. Inventore magni obcaecati nemo? Hic eaque qui, veritatis, odit labore eius odio voluptatum placeat amet non, explicabo excepturi fugit ab accusantium exercitationem. Laborum, dolorem praesentium, voluptatibus non similique iste inventore eligendi corrupti mollitia accusamus quam necessitatibus explicabo. Qui ex nisi error in! Voluptatum eveniet non autem nulla ducimus. Fugit cumque consequuntur aspernatur iste laborum, perferendis iusto aliquid. Aliquam unde dolor repudiandae ratione consequuntur? Quis ad doloremque aspernatur quam magnam odio, eos corrupti molestias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact scrollspy">
+        <h2 class="center-align">Contactez-moi</h2>
+
+        <div class="container">
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col m6 s12">
+                            <span class="material-icons prefix">create</span>
+                            <input type="text" name="firstname" id="firstname" placeholder="Votre prénom ici">
+                            <label for="firstname">Prénom</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <span class="material-icons prefix">create</span>
+                            <input type="text" name="lastname" id="lastname" placeholder="Votre nom ici">
+                            <label for="lastname">Nom</label>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <span class="material-icons prefix">alternate_email</span>
+                            <input type="email" name="email" id="email" class="validate">
+                            <label for="email">Email</label>
+                            <span class="helper-text" data-error="Cette adresse mail ne semble pas valide !" data-success="Mail valide"></span>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <span class="material-icons prefix">message</span>
+                            <textarea name="message" id="message" class="materialize-textarea" data-length="500"></textarea>
+                            <label for="message">Dites-moi tout</label>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-large waves-effect waves-light" type="submit">
+                        Valider
+                        <i class="material-icons right">send</i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p class="center-align">&copy; Tous droits réservés - 2020</p>
+    </footer>
+
+    <!-- Materialize -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Script -->
+    <script>
+        // Initialisation des plugins Materialize
+        M.AutoInit();
+
+        // Message d'avertissement
+        document.addEventListener('DOMContentLoaded', function() {
+            M.toast({
+                html: "<a class='btn-floating btn-large green darken-3 pulse'><i class='material-icons'>feedback</i></a>",
+                classes: "rounded center-align transparent",
+                displayLength: 8000,
+                inDuration: 2000,
+                outDuration: 2000
+            })
+            M.toast({
+                html: "<h5><b>Attention</b></h5><h6>Ce site est un concept. Par conséquent, les différents boutons ne sont pas actifs !</h6>",
+                classes: "rounded green darken-3",
+                displayLength: 8000,
+                inDuration: 2000,
+                outDuration: 2000
+            })
+        })
+
+        // Initialisation du compteur de caractères sur le textarea
+        document.addEventListener('DOMContentLoaded', function() {
+            var elements = document.querySelectorAll('.materialize-textarea');
+            var instances = M.CharacterCounter.init(elements);
+        })
+    </script>
+</body>
+</html>
